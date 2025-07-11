@@ -57,3 +57,45 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.ready {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.ready img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.form{
+    margin: 40px 0;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form input, .form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.form button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f1f1;
+}
