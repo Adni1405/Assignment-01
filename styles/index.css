@@ -1,3 +1,7 @@
+.header {
+    color: blue;
+}
+
 body {
     background-color: #f4f6fd;
     color: #333;
@@ -10,7 +14,7 @@ header {
     align-items: center;
 }
 
-.header-btn {
+.btn {
     background-color: #6c63ff;
     color: white;
     border: none;
