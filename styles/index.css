@@ -1,3 +1,11 @@
+.bg-image {
+    background-image: url('Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
 .header {
     color: blue;
 }
@@ -20,6 +28,7 @@ header {
     border: none;
     padding: 8px 16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .banner {
@@ -33,11 +42,23 @@ header {
     margin-top: 20px;
 }
 
+.action {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.action img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 .numbers {
     display: flex;
     justify-content: space-around;
     margin: 30px 0;
-    background: #e6e8fc;
+    background-color: #4E47FF;
     padding: 20px;
     border-radius: 10px;
 }
@@ -102,4 +123,21 @@ footer {
     text-align: center;
     padding: 20px;
     background: #f1f1f1;
+}
+
+.website-name{
+    color: blue;
+}
+
+.footer nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
 }
